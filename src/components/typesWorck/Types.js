@@ -39,7 +39,7 @@ export default function Types() {
                     <h3>{type.rooms.kitchen ? type.title[0]: console.log(`Не отображаю заголовок ${type.title[0]}`)}</h3>
                     {/* {console.log(allRooms[0])} */}
                     <div className='types-room'>
-                        <ul>
+                        <ul className='types-room_select'>
                             {type.rooms.kitchen ? type.rooms.kitchen.map(e => <li>{e}</li>): console.log('Нет раздела')}
                         </ul>
                         <img className='types-img' src={CITCHEN} alt='citchen'></img>
@@ -48,7 +48,7 @@ export default function Types() {
                     <h3>{type.rooms.badroom ? type.title[1]: console.log(`Не отображаю заголовок ${type.title[1]}`)}</h3>
                     <div className='types-room'>
                         <img className='types-img' src={BADROOM} alt='badroom'></img>
-                        <ul>
+                        <ul className='types-room_select'>
                             {type.rooms.badroom ? type.rooms.badroom.map(e => <li>{e}</li>): console.log('Нет раздела')}
                         </ul>
                     </div>
@@ -56,7 +56,7 @@ export default function Types() {
                     
                     <h3>{type.rooms.bathroom ? type.title[2]: console.log(`Не отображаю заголовок ${type.title[2]}`)}</h3>
                     <div className='types-room'>
-                        <ul>
+                        <ul className='types-room_select'>
                             {type.rooms.bathroom ? type.rooms.bathroom.map(e => <li>{e}</li>): console.log('Нет раздела')}
                         </ul>
                         <img className='types-img' src={BATHROOM} alt='bathroom'></img>
@@ -64,7 +64,7 @@ export default function Types() {
 
 
                     <h3>{type.rooms.balcony ? type.title[3]: console.log(`Не отображаю заголовок ${type.title[3]}`)}</h3>
-                    <ul>
+                    <ul className='types-room_select'>
                         {type.rooms.balcony ? type.rooms.balcony.map(e => <li>{e}</li>): console.log('Нет раздела')}
                     </ul>
                 </div>
