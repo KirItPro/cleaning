@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/cleaning/static/css/main.b84fdcf0.css",
+    "main.js": "/cleaning/static/js/main.2a5d2a8f.js",
+    "static/media/sale2.png": "/cleaning/static/media/sale2.665f1bb77b63f7750052.png",
+    "static/media/new-logo.png": "/cleaning/static/media/new-logo.71dbb6cfdfeee002af56.png",
+    "static/media/bg-promo2.jpg": "/cleaning/static/media/bg-promo2.76c5860f1b59decf83e9.jpg",
+    "static/media/badroom.jpg": "/cleaning/static/media/badroom.a4a4d73876039261116f.jpg",
+    "static/media/header-logo.png": "/cleaning/static/media/header-logo.d9dc244165a4bc2fc207.png",
+    "static/media/kitchen-cleaning.jpeg": "/cleaning/static/media/kitchen-cleaning.81c10d7cea51adaa59cf.jpeg",
+    "static/media/bathroom.jpeg": "/cleaning/static/media/bathroom.51d0c97f694be45b9636.jpeg",
+    "static/media/point.png": "/cleaning/static/media/point.1f31d0e4a7c8fd57e66c.png",
+    "index.html": "/cleaning/index.html",
+    "main.b84fdcf0.css.map": "/cleaning/static/css/main.b84fdcf0.css.map",
+    "main.2a5d2a8f.js.map": "/cleaning/static/js/main.2a5d2a8f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b84fdcf0.css",
+    "static/js/main.2a5d2a8f.js"
+  ]
+}
