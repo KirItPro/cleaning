@@ -1,12 +1,12 @@
-
-import LOGO from '../../img/new-logo.png';
+import './info.css';
+// import LOGO from '../../img/new-logo.png';
 
 export default function Info() {
     return (
         <div className='container'>
             <h2 >Наши преимущества</h2>
             <div className="info">
-                <img className='info-img' src={LOGO} alt='logo-img'/>
+                {/* <img className='info-img' src={LOGO} alt='logo-img'/> */}
                 <div className='info-allblocks'>
                     <div className='info-block'>Бесплатный выезд для расчета стоимости!</div>
                     <div className='info-block'>Фиксированная цена без скрытых доплат!</div>

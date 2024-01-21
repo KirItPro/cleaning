@@ -1,0 +1,40 @@
+.review {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#ececec, #39e1ff67, #ececec)
+}
+.review-slide_all {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: scroll;
+}
+.review-slide {
+  max-width: 348px;
+  margin: 10px 10px;
+  padding: 10px 15px;
+  scroll-snap-align: start;
+  border-radius: 20px;
+  border: 1px solid #f73496d3;
+  box-shadow: 0px 0px 10px #000000;
+}
+.review-vector {
+  margin: auto 5px;
+  width: 30px;
+  transition: .25s;
+  border-radius: 50%;
+}
+.review-vector:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transform: scale(1.25);
+}
+.review-vector:active {
+  box-shadow: 0px 0px 10px #000000;
+}
+::-webkit-scrollbar {
+  display: none;
+}

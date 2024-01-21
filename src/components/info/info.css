@@ -1,0 +1,29 @@
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+.info {
+    background: linear-gradient(#ececec, #39e1ff67, #ececec);
+    
+}
+.info-allblocks {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    -webkit-animation: pulsing 2s infinite;
+    animation: pulsing 4s infinite;
+}
+@keyframes pulsing {
+    0% {
+      -webkit-transform: scale(1, 1);
+      transform: scale(1.1, 1.1)
+    }
+    50% {
+      -webkit-transform: scale(1, 1);
+      transform: scale(1, 1);
+    }
+    100% {
+      -webkit-transform: scale(1, 1);
+      transform: scale(1.1, 1.1);
+    }
+  }

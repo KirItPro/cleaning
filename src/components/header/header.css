@@ -1,0 +1,30 @@
+.header {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #47d3fa25;
+}
+.container {
+    margin: 0 10px;
+}
+p{
+    margin: 0;
+}
+.header-menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header-menu_text:hover {
+    cursor: pointer;
+    color: #818181;
+}
+.header-tel {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: #000;
+}
+.header-tel:hover {
+    color: #818181;
+}

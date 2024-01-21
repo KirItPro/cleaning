@@ -1,10 +1,11 @@
 import HEADERLOGO from '../../img/header-logo.png';
 import POINT from '../../img/point.png';
+import './header.css';
 
 export default function Header() {
     return (
+      // <div className="container">
         <header className="header">
-        {/* <div className="container"> */}
           <img className='imgLogo' src={HEADERLOGO} alt='img-logo' width='150px'/>
           <div className='place-time'>
             <p>Ежедневно с 9:00 до 21:00</p>
@@ -19,7 +20,7 @@ export default function Header() {
           </div>
 
           <a className="header-tel" href="tel:+79002902923">+7(900)290-29-23</a>
-        {/* </div> */}
-      </header>
+        </header>
+      // </div>
     )
 }
