@@ -28,3 +28,11 @@ p{
 .header-tel:hover {
     color: #818181;
 }
+@media (max-width: 850px) {
+    .header-menu {
+        display: none;
+    }
+    .place-time {
+        display: none;
+    }
+}

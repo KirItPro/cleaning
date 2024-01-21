@@ -43,3 +43,36 @@ h3{
 .active {
     display: block;
 }
+@media (max-width: 850px) {
+    .types-img {
+        display: none;
+    }
+    .types-room {
+        font-size: 20px;
+        border: 2px solid #f7349688;
+        border-radius: 5px;
+    }
+}
+@media (max-width: 700px) {
+    .types-buttons {
+        display: grid;
+        gap: 5px;
+    }
+    .types-work_button {
+    font-size: 15px;
+    }
+}
+@media (max-width: 500px)  {
+    h3 {
+        font-size: 20px;
+    }
+    .types-room {
+        font-size: 15px
+    }
+}
+@media (max-width: 320px) {
+    /* .types-work_button {
+        margin: 3px;
+        padding: 2px;
+    } */
+}

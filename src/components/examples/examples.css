@@ -38,3 +38,16 @@
   ::-webkit-scrollbar {
     display: none;
   }
+  @media (max-width: 850px) {
+    .examples-slide_all {
+      width: 400px;
+    }
+  }
+  @media (max-width: 500px) {
+    .examples-slide_all {
+      width: 200px;
+    }
+    .examples-slide {
+      width: 146px;
+    }
+  }
