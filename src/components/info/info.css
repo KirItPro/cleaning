@@ -4,7 +4,6 @@ h2 {
 }
 .info {
     background: linear-gradient(#ececec, #39e1ff67, #ececec);
-    
 }
 .info-allblocks {
     font-size: 30px;
@@ -13,6 +12,7 @@ h2 {
     -webkit-animation: pulsing 2s infinite;
     animation: pulsing 4s infinite;
 }
+
 @keyframes pulsing {
     0% {
       -webkit-transform: scale(1, 1);

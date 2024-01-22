@@ -1,9 +1,9 @@
-import './promo.css';
 import PROMO from '../../img/new-logo.png';
+import './promo.css';
 
 export default function Promo() {
     return (
-        <div className='promo'>
+        <div className='promo' id='promo'>
         <div className='promo-img_bg'/>
         <img className='promo-img' src={PROMO} alt='promo-img'/>
         

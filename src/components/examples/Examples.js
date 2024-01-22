@@ -1,9 +1,8 @@
-import './examples.css';
-
 import { useRef } from 'react';
 import LEFT from '../../img/left-e.png';
 import RIGHT from '../../img/right-e.png';
 import { examplesImg } from './example.data';
+import './examples.css';
 
 export default function Examples() {
     let imgExContainerRef = useRef(null)
@@ -16,8 +15,7 @@ export default function Examples() {
             <div className='examples'>
                 <img className='examples-vector' src={LEFT} onClick={prev}  alt='ex-p'/>
                     <div className='examples-slide_all' ref={imgExContainerRef}>
-                    {examplesImg.map(img => <img className='examples-slide' src={img}  alt='ex-sl'/>)}
-                    {console.log(imgExContainerRef)}
+                    {examplesImg.map(img => <img className='examples-slide' src={img}  alt='ex-sl' key={`i${img}`}/>)}
                     </div>
                 <img className='examples-vector' src={RIGHT} onClick={next}  alt='ex-n'/>
             </div>

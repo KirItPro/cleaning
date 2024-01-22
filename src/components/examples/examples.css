@@ -8,15 +8,17 @@
   .examples-slide_all {
     width: 800px;
     display: flex;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
     justify-content: space-between;
     align-items: center;
     overflow-x: scroll;
   }
   .examples-slide {
-    width: 346px;
-    margin: 10px 10px;
-    padding: 10px 15px;
-    /* scroll-snap-align: start; */
+    width: 356px;
+    margin: 10px 15px;
+    padding: 5px;
+    scroll-snap-align:calc(6px);
     border-radius: 20px;
     border: 2px solid #39e1ff67;
     box-shadow: 0px 0px 10px #000000;
@@ -44,10 +46,7 @@
     }
   }
   @media (max-width: 500px) {
-    .examples-slide_all {
-      width: 200px;
-    }
     .examples-slide {
-      width: 146px;
+      width: 256px;
     }
   }

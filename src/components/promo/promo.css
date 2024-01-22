@@ -1,7 +1,6 @@
 
 .promo {
     display: flex;
-    /* border-bottom:1px solid #f73496d3; */
 }
 .promo-img {
     width: 40vw;
@@ -34,7 +33,7 @@
     width: 25vw;
     height: 3vw;
     font-size: 2vw;
-    color: #000;
+    color: #000;    
     background: linear-gradient(#dddddd94 10%, #fffbfbd2 50%, #636363a1 90%);
     border: 1px solid #838383;
     border-radius: 5px;
@@ -42,12 +41,11 @@
     text-decoration:none;
     text-transform: uppercase;
     position: relative;
-    transition: .05s;
 }
 .promo-button:hover {
     box-shadow: 0px 0px 15px #2bb5c7da;
-    transform: scale(1.01);
-    transition: .05s;
+    transform: scale(1.005);
+    transition: all .1s;
 }
 .promo-text {
     position: relative; 
@@ -70,7 +68,6 @@
         margin-top: 20px;
         text-align: center;
         background: linear-gradient( to right,#ececec 10%, #f73496d3 50%, #ececec 90%);
-      
     }
     .promo-bg {
         margin-bottom: 0;
