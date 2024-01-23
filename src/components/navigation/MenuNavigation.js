@@ -3,12 +3,6 @@ import { menuData } from './menu.data';
 import './navigation.css';
 
 export default function MenuNavigation() {
-    // const menuData = [
-    //     {id: 'promo', title: 'Главная'},
-    //     {id: 'types', title: 'Виды работ'},
-    //     {id: 'price', title: 'Цены'},
-    //     {id: 'review', title: 'Отзывы'}
-    // ]
     return(
         <nav className='nav-menu'>
             {menuData.map(e => 
