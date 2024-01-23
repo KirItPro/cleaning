@@ -99,7 +99,8 @@
 @media (max-width: 360px) {
     .promo-title {
         width: 60vw;
-        font-size: 25px;
+        font-size: 30px;
+        padding-top: 5px;
     }
     .promo-text {
         margin: 0;  
