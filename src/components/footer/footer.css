@@ -1,9 +1,9 @@
 footer {
-    height: 50px;
-    padding: 0 15px;
+    height: 40px;
+    padding: 5px 15px 10px;
     display: none;
     justify-content: space-between;
-    position: sticky;
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
@@ -11,12 +11,11 @@ footer {
 }
 .footer-text {
     width: 55px;
-    background-color: #d4d4d4e8;
     margin: 3px;
     padding: 5px;
-    border-radius: 20px;
+    border-radius: 5px;
     text-decoration: none;
-    color: #000;
+    color: #d4d4d4d7;
     display: flex;
     align-items: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -27,11 +26,6 @@ footer {
     transition: all 0.2s;
 }
 
-@media (max-width: 500px) {
-    .footer-text {
-
-    }
-}
 @media (max-width: 650px) {
     footer {
         display: flex;
