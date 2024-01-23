@@ -1,16 +1,17 @@
 import { Link } from "react-scroll";
+import { menuData } from './menu.data';
 import './navigation.css';
 
 export default function MenuNavigation() {
-    const titleMenu = [
-        {id: 'promo', title: 'Главная'},
-        {id: 'types', title: 'Виды работ'},
-        {id: 'price', title: 'Цены'},
-        {id: 'review', title: 'Отзывы'}
-    ]
+    // const menuData = [
+    //     {id: 'promo', title: 'Главная'},
+    //     {id: 'types', title: 'Виды работ'},
+    //     {id: 'price', title: 'Цены'},
+    //     {id: 'review', title: 'Отзывы'}
+    // ]
     return(
         <nav className='nav-menu'>
-            {titleMenu.map(e => 
+            {menuData.map(e => 
                 <Link 
                 className='nav-menu_text' 
                 activeClass='active_menu'

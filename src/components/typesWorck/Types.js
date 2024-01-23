@@ -34,7 +34,7 @@ export default function Types() {
                 <div className="types-buttons">
                     {dataBtn.map((btn,i) => 
                         <button id={Number(btn.id)} 
-                            style={btn.id === type.id ? {boxShadow: '0px 0px 20px #f734969c', transform: 'scale(1.1)', borderColor: "#3a3a39e5"} : {}}
+                            style={btn.id === type.id ? {boxShadow: '0px 0px 10px #f734969c', transform: 'scale(1.1)', borderColor: "#3a3a39e5"} : {}}
                             className= 'types-work_button'
                             onClick={activeStandart}
                             key={`bt${i}`}>

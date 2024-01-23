@@ -16,7 +16,7 @@
 }
 .review-slide {
   max-width: 358px;
-  margin: 10px 15px;
+  margin: 10px 10px;
   padding: 5px;  
   scroll-snap-align:calc(6px);
   border-radius: 20px;

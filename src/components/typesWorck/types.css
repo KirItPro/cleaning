@@ -17,7 +17,7 @@
     transition: all .2s;
 }
 .types-work_button:hover {
-    box-shadow: 0px 0px 10px #f734969c;
+    box-shadow: 0px 0px 5px #f734969c;
     cursor: pointer;
 }
 .types-img {
@@ -45,6 +45,9 @@ h3{
 }
 
 @media (max-width: 850px) {
+    h3 {
+        margin-bottom: 5px;
+    }
     .types-img {
         display: none;
     }

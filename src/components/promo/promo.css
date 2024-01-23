@@ -79,15 +79,30 @@
         font-size: 35px;
     }
     .promo-bg {
-        gap: 15px;
+        gap: 10px;
     }
     .promo-text {
         font-size: 15px;  
     }
-}
-@media (max-width: 320px) {
-    .promo-title {
-        width: 80vw;
-        font-size: 25px;
+    .promo-button {
+        margin-top: 40px;
+        left: 15%;
+        width: 60vw;
+        height: 10vw;
+        font-size: 18px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+}
+@media (max-width: 360px) {
+    .promo-title {
+        width: 70vw;
+        font-size: 20px;
+    }
+    .promo-text {
+        margin: 0;  
+    }
+
 }

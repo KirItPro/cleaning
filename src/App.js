@@ -5,6 +5,7 @@ import Types from './components/typesWorck/Types';
 import Price from './components/price/Price';
 import Reviews from './components/reviews/Reviews';
 import Examples from './components/examples/Examples';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Price/>
       <Reviews/>  
       <Examples/>
+      <Footer/>
     </>
   );
 }
